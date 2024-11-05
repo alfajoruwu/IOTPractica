@@ -5,14 +5,14 @@ import '../MenuInicial/MenuInicial.css'
 const MenuInicial = () => {
   return (
     <>
-    <Navbar/>
+    <Navbar titulo={"Menu inicial"}/>
 
     <div className='MenuInicial'>
     
-    <button>aaaa</button>
-    <button>aaaa</button>
-    <button>aaaa</button>
-    <button>aaaa</button>
+    <button>Resumen</button>
+    <button>Estaciones</button>
+    <button>Actuadores</button>
+    <button>Notificaciones</button>
 
     </div>
 

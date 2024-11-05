@@ -23,4 +23,6 @@ CREATE TABLE Usuario (
 INSERT INTO Usuario (Nombre, Correo, Contraseña,Tipo) VALUES
 ('Matias Camilla','mcamilla20@alumnos.utalca.cl','12345678','administrador' ),
 ('Luckas Strnad', 'lstrnad20@alumnos.utalca.cl','12345678' ,'usuario');
+('Admin', 'admin','admin' ,'administrador');
+('usuario', 'usuario','usuario' ,'usuario');
 

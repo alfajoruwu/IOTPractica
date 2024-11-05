@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Navbar/Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({titulo}) => {
   return (
     <>
     
@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className='Navbar'>
     
         <h3>
-         Inicio de sesion
+         {titulo}
         </h3>
     
     

@@ -5,8 +5,8 @@ import Navbar from '../../../../Componentes/Elementos comunes/Navbar/Navbar'
 const MenuInicialAdmin = () => {
   return (
     <>
-    <Navbar/>
-    <div>MenuInicialAdmin</div>
+    <Navbar titulo={"Menu inicial"}/>
+    <div>Usuario ADMIN</div>
     
     </>
   )
